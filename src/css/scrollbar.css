@@ -1,0 +1,20 @@
+/* ===== Scrollbar CSS ===== */
+
+*::-webkit-scrollbar {
+    width: 12px;
+    max-height: 50%;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid white;
+    max-height: 5%;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #1253cc;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    max-height: 50%;
+}
